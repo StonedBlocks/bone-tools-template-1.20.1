@@ -15,6 +15,8 @@ public class ModItems {
          new Item(new FabricItemSettings()));
  public static final Item BONE_BIT = registerItem("bone_bit",
          new Item(new FabricItemSettings()));
+ public static final Item BONE_CRYSTAL = registerItem("bone_crystal",
+         new Item(new FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -24,6 +26,7 @@ public class ModItems {
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
         entries.add(BONE_STICK);
         entries.add(BONE_BIT);
+        entries.add(BONE_CRYSTAL);
     }
 
     public static void registerModItems() {

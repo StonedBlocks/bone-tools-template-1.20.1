@@ -21,5 +21,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.BONE_STICK, Models.GENERATED);
         itemModelGenerator.register(ModItems.BONE_BIT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BONE_CRYSTAL, Models.GENERATED);
     }
 }
