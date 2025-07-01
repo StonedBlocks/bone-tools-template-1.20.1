@@ -2,6 +2,7 @@ package net.thenameislinus.bonetools;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.thenameislinus.bonetools.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +13,6 @@ public class BoneTools implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItems.registerModItems();
 	}
 }
