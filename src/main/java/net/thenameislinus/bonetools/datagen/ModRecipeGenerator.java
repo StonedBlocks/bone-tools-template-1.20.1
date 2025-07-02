@@ -52,6 +52,38 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BONE_CRYSTAL), conditionsFromItem(ModItems.BONE_CRYSTAL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.BONED_IRON_SWORD)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BONED_GOLDEN_SWORD)
+                .pattern(" W ")
+                .pattern(" C ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('W', Ingredient.ofItems(Items.GOLD_INGOT))
+                .input('C', ModItems.BONE_CRYSTAL)
+                .criterion(hasItem(ModItems.BONE_CRYSTAL), conditionsFromItem(ModItems.BONE_CRYSTAL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.BONED_GOLDEN_SWORD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BONED_DIAMOND_SWORD)
+                .pattern(" W ")
+                .pattern(" C ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('W', Ingredient.ofItems(Items.DIAMOND))
+                .input('C', ModItems.BONE_CRYSTAL)
+                .criterion(hasItem(ModItems.BONE_CRYSTAL), conditionsFromItem(ModItems.BONE_CRYSTAL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.BONED_DIAMOND_SWORD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BONED_NETHERITE_SWORD)
+                .pattern(" W ")
+                .pattern(" C ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('W', Ingredient.ofItems(Items.NETHERITE_INGOT))
+                .input('C', ModItems.BONE_CRYSTAL)
+                .criterion(hasItem(ModItems.BONE_CRYSTAL), conditionsFromItem(ModItems.BONE_CRYSTAL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.BONED_NETHERITE_SWORD)));
+
+
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BONE_CRYSTAL)
                 .input(Items.REDSTONE)
                 .input(Items.NETHERITE_SCRAP)
