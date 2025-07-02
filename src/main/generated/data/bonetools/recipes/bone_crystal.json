@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "bonetools:bone_bit"
+    },
+    {
+      "item": "bonetools:bone_bit"
+    },
+    {
+      "item": "bonetools:bone_bit"
+    },
+    {
+      "item": "bonetools:bone_bit"
+    }
+  ],
+  "result": {
+    "item": "bonetools:bone_crystal"
+  }
+}

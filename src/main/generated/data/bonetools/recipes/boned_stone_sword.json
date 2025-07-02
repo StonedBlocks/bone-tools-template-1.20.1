@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "bonetools:bone_crystal"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "tag": "minecraft:stone_tool_materials"
+    }
+  },
+  "pattern": [
+    " W ",
+    " C ",
+    " S "
+  ],
+  "result": {
+    "item": "bonetools:boned_stone_sword"
+  },
+  "show_notification": true
+}
