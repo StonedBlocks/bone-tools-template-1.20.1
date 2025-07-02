@@ -1,9 +1,15 @@
-// 1.20.1	2025-07-02T21:26:22.645914	Bone Tools/Recipes
-ab92b7b8a8bef34db1e8d41914505a27d55b1bf5 data/bonetools/advancements/recipes/combat/boned_wooden_sword.json
-227a1a8cc54aac4e1bad1be7a95215b1a008cfee data/bonetools/recipes/boned_iron_sword.json
+// 1.20.1	2025-07-02T23:17:23.657142	Bone Tools/Recipes
+9d9a370e432fc7632d6030e222a71860b886022b data/bonetools/recipes/boned_golden_sword.json
 f19f41e662d4a808cf8689e85d590232f9610b95 data/bonetools/recipes/boned_wooden_sword.json
-dfe23c3aa2bcf720b8e64f482be14c8b1217dbe6 data/bonetools/advancements/recipes/misc/bone_crystal.json
 6825b2c361df8d64140f42095b3ce84df17afc9d data/bonetools/recipes/boned_stone_sword.json
 479375c581c4ff2a8645f9c1a70ef6a1d5dba702 data/bonetools/recipes/bone_crystal.json
+b9c02453b753930da3e3d1cf158fbc3f64596625 data/bonetools/advancements/recipes/combat/boned_golden_sword.json
+6c84c5707c0fa48911fb0f67fb17b6b66a3ee086 data/bonetools/advancements/recipes/combat/boned_netherite_sword.json
 bc96fc17cde794677c60d18466b33b2f06213bd2 data/bonetools/advancements/recipes/combat/boned_stone_sword.json
+ab92b7b8a8bef34db1e8d41914505a27d55b1bf5 data/bonetools/advancements/recipes/combat/boned_wooden_sword.json
+227a1a8cc54aac4e1bad1be7a95215b1a008cfee data/bonetools/recipes/boned_iron_sword.json
+26fb580c011982a1d7b38196bae21a0a1ffbbe6e data/bonetools/recipes/boned_diamond_sword.json
+dfe23c3aa2bcf720b8e64f482be14c8b1217dbe6 data/bonetools/advancements/recipes/misc/bone_crystal.json
+5b545888e9b8228d0712ed29742b832f0e774f8a data/bonetools/recipes/boned_netherite_sword.json
+27ba639396ca7358eb33bbb179bf2503b9023b48 data/bonetools/advancements/recipes/combat/boned_diamond_sword.json
 2167366360252099889328680b904d5e01fffff9 data/bonetools/advancements/recipes/combat/boned_iron_sword.json

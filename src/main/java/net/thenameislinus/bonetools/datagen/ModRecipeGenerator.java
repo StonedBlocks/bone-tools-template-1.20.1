@@ -62,7 +62,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BONE_CRYSTAL), conditionsFromItem(ModItems.BONE_CRYSTAL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.BONED_GOLDEN_SWORD)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BONED_DIAMOND_SWORD)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BONED_DIAMOND_SWORD
                 .pattern(" W ")
                 .pattern(" C ")
                 .pattern(" S ")
