@@ -5,9 +5,11 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.SmithingTransformRecipeJsonBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.recipe.SmithingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Identifier;
@@ -62,7 +64,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BONE_CRYSTAL), conditionsFromItem(ModItems.BONE_CRYSTAL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.BONED_GOLDEN_SWORD)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BONED_DIAMOND_SWORD
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BONED_DIAMOND_SWORD)
                 .pattern(" W ")
                 .pattern(" C ")
                 .pattern(" S ")
@@ -72,16 +74,61 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BONE_CRYSTAL), conditionsFromItem(ModItems.BONE_CRYSTAL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.BONED_DIAMOND_SWORD)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BONED_NETHERITE_SWORD)
-                .pattern(" W ")
-                .pattern(" C ")
-                .pattern(" S ")
-                .input('S', Items.STICK)
-                .input('W', Ingredient.ofItems(Items.NETHERITE_INGOT))
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BONED_WOODEN_AXE)
+                .input('#', Items.STICK)
+                .input('X', Ingredient.fromTag(ItemTags.PLANKS))
                 .input('C', ModItems.BONE_CRYSTAL)
+                .pattern("CX")
+                .pattern("X#")
+                .pattern(" #")
                 .criterion(hasItem(ModItems.BONE_CRYSTAL), conditionsFromItem(ModItems.BONE_CRYSTAL))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.BONED_NETHERITE_SWORD)));
+                .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BONED_STONE_AXE)
+                .input('#', Items.STICK)
+                .input('X', Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS))
+                .input('C', ModItems.BONE_CRYSTAL)
+                .pattern("CX")
+                .pattern("X#")
+                .pattern(" #")
+                .criterion(hasItem(ModItems.BONE_CRYSTAL), conditionsFromItem(ModItems.BONE_CRYSTAL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BONED_IRON_AXE)
+                .input('#', Items.STICK)
+                .input('X', Items.IRON_INGOT)
+                .input('C', ModItems.BONE_CRYSTAL)
+                .pattern("CX")
+                .pattern("X#")
+                .pattern(" #")
+                .criterion(hasItem(ModItems.BONE_CRYSTAL), conditionsFromItem(ModItems.BONE_CRYSTAL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BONED_GOLDEN_AXE)
+                .input('#', Items.STICK)
+                .input('X', Items.GOLD_INGOT)
+                .input('C', ModItems.BONE_CRYSTAL)
+                .pattern("CX")
+                .pattern("X#")
+                .pattern(" #")
+                .criterion(hasItem(ModItems.BONE_CRYSTAL), conditionsFromItem(ModItems.BONE_CRYSTAL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BONED_DIAMOND_AXE)
+                .input('#', Items.STICK)
+                .input('X', Items.DIAMOND)
+                .input('C', ModItems.BONE_CRYSTAL)
+                .pattern("CX")
+                .pattern("X#")
+                .pattern(" #")
+                .criterion(hasItem(ModItems.BONE_CRYSTAL), conditionsFromItem(ModItems.BONE_CRYSTAL))
+                .offerTo(exporter);
+
+        offerNetheriteUpgradeRecipe(exporter, ModItems.BONED_DIAMOND_SWORD, RecipeCategory.COMBAT, ModItems.BONED_NETHERITE_SWORD);
+
+        offerNetheriteUpgradeRecipe(exporter, ModItems.BONED_DIAMOND_AXE, RecipeCategory.COMBAT, ModItems.BONED_NETHERITE_AXE);
+
+        offerNetheriteUpgradeRecipe(exporter, ModItems.BONED_DIAMOND_PICKAXE, RecipeCategory.TOOLS, ModItems.BONED_NETHERITE_PICKAXE);
 
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BONE_CRYSTAL)

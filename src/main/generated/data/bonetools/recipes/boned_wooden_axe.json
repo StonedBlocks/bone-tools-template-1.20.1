@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "bonetools:bone_crystal"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "CX",
+    "X#",
+    " #"
+  ],
+  "result": {
+    "item": "bonetools:boned_wooden_axe"
+  },
+  "show_notification": true
+}

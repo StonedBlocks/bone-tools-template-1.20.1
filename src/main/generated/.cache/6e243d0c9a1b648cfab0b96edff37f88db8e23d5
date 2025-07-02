@@ -1,4 +1,4 @@
-// 1.20.1	2025-07-02T23:17:23.655936	Bone Tools/Model Definitions
+// 1.20.1	2025-07-03T00:23:51.283125	Bone Tools/Model Definitions
 6d474c958da7ca7f89c0d1d5843c4d8639828dd8 assets/bonetools/models/item/boned_wooden_axe.json
 93f3886ef9b13027fcb142801f87d5cc36ae5d8d assets/bonetools/models/item/boned_stone_sword.json
 579eba5e43850a0adb8e3cc6dd43eaacb99d28c8 assets/bonetools/models/item/boned_stone_pickaxe.json
@@ -18,5 +18,5 @@ c9a468c239334e59958a96604df640b523a2f144 assets/bonetools/models/item/boned_neth
 1bfadbaabc7f71e71e4a2c20b5f4f7a47ebf0c62 assets/bonetools/models/item/boned_golden_axe.json
 4d73e180faf83ad629b2f06ea9a2beb0a2f5b0a9 assets/bonetools/models/item/boned_diamond_axe.json
 cf2fa380514cd6d69651c794773bf417e9881d6a assets/bonetools/models/item/boned_diamond_sword.json
-031157a1e9b47ef31114a84721378298a6d9f327 assets/bonetools/models/item/boned_iron_axe.json
 36d9cfb49f1bf5877aac6ddf9fa8c8bd2edd7f2b assets/bonetools/models/item/boned_diamond_pickaxe.json
+031157a1e9b47ef31114a84721378298a6d9f327 assets/bonetools/models/item/boned_iron_axe.json

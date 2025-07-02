@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_bone_crystal": {
+    "has_netherite_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "bonetools:bone_crystal"
+              "minecraft:netherite_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:boned_netherite_sword"
+        "recipe": "minecraft:boned_netherite_pickaxe_smithing"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_bone_crystal",
+      "has_netherite_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:boned_netherite_sword"
+      "minecraft:boned_netherite_pickaxe_smithing"
     ]
   },
   "sends_telemetry_event": false
