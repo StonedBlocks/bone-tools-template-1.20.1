@@ -1,5 +1,29 @@
 {
   "item.bonetools.bone_stick": "Bone Stick",
   "item.bonetools.bone_bit": "Bone Bit:",
-  "item.bonetools.bone_crystal": "Bone Crystal"
+  "item.bonetools.bone_crystal": "Bone Crystal",
+
+  "item.bonetools.boned_wooden_sword": "Boned Wooden Sword",
+  "item.bonetools.boned_wooden_pickaxe": "Boned Wooden Pickaxe",
+  "item.bonetools.boned_wooden_axe": "Boned Wooden Axe",
+
+  "item.bonetools.boned_stone_sword": "Boned Stone Sword",
+  "item.bonetools.boned_stone_pickaxe": "Boned Stone Pickaxe",
+  "item.bonetools.boned_stone_axe": "Boned Stone Axe",
+
+  "item.bonetools.boned_iron_sword": "Boned Iron Sword",
+  "item.bonetools.boned_iron_pickaxe": "Boned Iron Pickaxe",
+  "item.bonetools.boned_iron_axe": "Boned Iron Axe",
+
+  "item.bonetools.boned_golden_sword": "Boned Golden Sword",
+  "item.bonetools.boned_golden_pickaxe": "Boned Golden Pickaxe",
+  "item.bonetools.boned_golden_axe": "Boned Golden Axe",
+
+  "item.bonetools.boned_diamond_sword": "Boned Diamond Sword",
+  "item.bonetools.boned_diamond_pickaxe": "Boned Diamond Pickaxe",
+  "item.bonetools.boned_diamond_axe": "Boned Diamond Axe",
+
+  "item.bonetools.boned_netherite_sword": "Boned Netherite Sword",
+  "item.bonetools.boned_netherite_pickaxe": "Boned Netherite Pickaxe",
+  "item.bonetools.boned_netherite_axe": "Boned Netherite Axe"
 }

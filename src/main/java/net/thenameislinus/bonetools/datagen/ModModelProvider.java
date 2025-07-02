@@ -22,5 +22,30 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BONE_STICK, Models.GENERATED);
         itemModelGenerator.register(ModItems.BONE_BIT, Models.GENERATED);
         itemModelGenerator.register(ModItems.BONE_CRYSTAL, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.BONED_WOODEN_SWORD,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BONED_WOODEN_PICKAXE,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BONED_WOODEN_AXE,Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.BONED_STONE_SWORD,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BONED_STONE_PICKAXE,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BONED_STONE_AXE,Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.BONED_IRON_SWORD,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BONED_IRON_PICKAXE,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BONED_IRON_AXE,Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.BONED_GOLDEN_SWORD,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BONED_GOLDEN_PICKAXE,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BONED_GOLDEN_AXE,Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.BONED_DIAMOND_SWORD,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BONED_DIAMOND_PICKAXE,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BONED_DIAMOND_AXE,Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.BONED_NETHERITE_SWORD,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BONED_NETHERITE_PICKAXE,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BONED_NETHERITE_AXE,Models.HANDHELD);
+
     }
 }

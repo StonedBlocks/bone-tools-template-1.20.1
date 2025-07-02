@@ -1,4 +1,22 @@
-// 1.20.1	2025-07-01T19:35:25.115087	Bone Tools/Model Definitions
+// 1.20.1	2025-07-02T19:36:15.154375	Bone Tools/Model Definitions
+93f3886ef9b13027fcb142801f87d5cc36ae5d8d assets/bonetools/models/item/boned_stone_sword.json
+6d474c958da7ca7f89c0d1d5843c4d8639828dd8 assets/bonetools/models/item/boned_wooden_axe.json
+579eba5e43850a0adb8e3cc6dd43eaacb99d28c8 assets/bonetools/models/item/boned_stone_pickaxe.json
+b9107af8bdde0dabee1c27bb83cf41e0275d5011 assets/bonetools/models/item/boned_golden_pickaxe.json
+988e77f6b7faf0f14d93d2ec2a3236463410c59a assets/bonetools/models/item/boned_iron_sword.json
+0db6b8a0308dda9e9126ed6db8b05db1b449b88e assets/bonetools/models/item/boned_stone_axe.json
+c4818b61906e9821c7aa7af2977d72e5944c8e4b assets/bonetools/models/item/boned_iron_pickaxe.json
+d1b62cdf3450393a1923bbde03fbc064338058b7 assets/bonetools/models/item/boned_netherite_sword.json
 7282248940085b7d003a799a595841331ab3ee6e assets/bonetools/models/item/bone_stick.json
 86c96a7967a7f18976219194b0a2da4508e07311 assets/bonetools/models/item/bone_bit.json
+7312a0d33f91e17369b124e0b34f56fecc17dd4a assets/bonetools/models/item/boned_wooden_sword.json
+842f15f44e6306d4ee6b0feda726ba9613e18ecf assets/bonetools/models/item/boned_golden_sword.json
 a891cc65591abb57c85cba41bffce9da63baee10 assets/bonetools/models/item/bone_crystal.json
+ec915afc2e0170c20f23daa50c6e96307c0af667 assets/bonetools/models/item/boned_wooden_pickaxe.json
+8e9c6734c59f469e526ea9a087f86f1a44cebc8e assets/bonetools/models/item/boned_netherite_pickaxe.json
+c9a468c239334e59958a96604df640b523a2f144 assets/bonetools/models/item/boned_netherite_axe.json
+1bfadbaabc7f71e71e4a2c20b5f4f7a47ebf0c62 assets/bonetools/models/item/boned_golden_axe.json
+4d73e180faf83ad629b2f06ea9a2beb0a2f5b0a9 assets/bonetools/models/item/boned_diamond_axe.json
+cf2fa380514cd6d69651c794773bf417e9881d6a assets/bonetools/models/item/boned_diamond_sword.json
+36d9cfb49f1bf5877aac6ddf9fa8c8bd2edd7f2b assets/bonetools/models/item/boned_diamond_pickaxe.json
+031157a1e9b47ef31114a84721378298a6d9f327 assets/bonetools/models/item/boned_iron_axe.json
