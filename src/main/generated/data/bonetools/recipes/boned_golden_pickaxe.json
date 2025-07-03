@@ -2,23 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
     "C": {
       "item": "bonetools:bone_crystal"
     },
-    "S": {
-      "item": "bonetools:bone_stick"
-    },
-    "W": {
-      "tag": "minecraft:stone_tool_materials"
+    "X": {
+      "item": "minecraft:gold_ingot"
     }
   },
   "pattern": [
-    " W ",
-    " C ",
-    " S "
+    "XCX",
+    " # ",
+    " # "
   ],
   "result": {
-    "item": "bonetools:boned_stone_sword"
+    "item": "bonetools:boned_golden_pickaxe"
   },
   "show_notification": true
 }
