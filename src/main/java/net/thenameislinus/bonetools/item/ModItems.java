@@ -53,11 +53,11 @@ public class ModItems {
          new AxeItem(ModToolMaterial.BONED_DIAMOND, 6, 4, new FabricItemSettings()));
 
  public static final Item BONED_NETHERITE_SWORD = registerItem("boned_netherite_sword",
-         new SwordItem(ModToolMaterial.BONED_NETHERITE, 4, 4, new FabricItemSettings()));
+         new SwordItem(ModToolMaterial.BONED_NETHERITE, 4, 4, new FabricItemSettings().fireproof()));
  public static final Item BONED_NETHERITE_PICKAXE = registerItem("boned_netherite_pickaxe",
-         new PickaxeItem(ModToolMaterial.BONED_NETHERITE, 1, 4, new FabricItemSettings()));
+         new PickaxeItem(ModToolMaterial.BONED_NETHERITE, 1, 4, new FabricItemSettings().fireproof()));
  public static final Item BONED_NETHERITE_AXE = registerItem("boned_netherite_axe",
-         new AxeItem(ModToolMaterial.BONED_NETHERITE, 6, 4, new FabricItemSettings()));
+         new AxeItem(ModToolMaterial.BONED_NETHERITE, 6, 4, new FabricItemSettings().fireproof()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BoneTools.MOD_ID, name), item);
