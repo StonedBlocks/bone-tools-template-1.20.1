@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "G": {
+      "item": "bonetools:glass_powder"
+    }
+  },
+  "pattern": [
+    "BGB",
+    "GBG",
+    "BGB"
+  ],
+  "result": {
+    "item": "bonetools:bone_crystal"
+  },
+  "show_notification": true
+}
