@@ -3,13 +3,13 @@
 	"id": "bonetools",
 	"version": "${version}",
 	"name": "Bone Tools",
-	"description": "This is a mod that changes the way tools work by replacing any crafting recipe that has a stick in the crafting recipe with a bone!",
+	"description": "This is the greatest mod that you will ever touch.",
 	"authors": [
 		"TheNameIsLinus"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/StonedBlocks/bone-tools-template-1.20.1"
 	},
 	"license": "MIT",
 	"icon": "assets/bonetools/icon.png",
