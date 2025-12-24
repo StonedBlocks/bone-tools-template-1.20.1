@@ -1,9 +1,19 @@
-// 1.20.1	2025-12-21T10:59:53.9149489	Bone Tools/Model Definitions
+// 1.20.1	2025-12-24T10:14:22.3563209	Bone Tools/Model Definitions
 be36487483d788035d79abdf158f70724a580c33 assets\bonetools\models\item\bone_powder.json
-41c1caf38625534d44cb49fb0473aa04c2eee851 assets\bonetools\models\item\bone_dagger.json
 a891cc65591abb57c85cba41bffce9da63baee10 assets\bonetools\models\item\bone_crystal.json
-7282248940085b7d003a799a595841331ab3ee6e assets\bonetools\models\item\bone_stick.json
+37f0b6124d65f07a8c1f2acf83addac95aa47f62 assets\bonetools\models\item\thick_sharpened_bone_stick.json
+b79991d00336c1b7af0668c0111ba1db37661c04 assets\bonetools\models\item\bone_sword.json
+3aa7838190552697a506208d573de274f742573e assets\bonetools\models\item\flint_4.json
 4ac813294b4ec08a42db7d44bf5582cade8b533b assets\bonetools\models\item\bone_pick.json
-3dd43ce3412ba7f7c906182f419b448e2c8dd94e assets\bonetools\models\item\glass_powder.json
+a0c8c5af474f1780c151b0b1d46c008890013bd4 assets\bonetools\models\item\flint_3.json
 86c96a7967a7f18976219194b0a2da4508e07311 assets\bonetools\models\item\bone_bit.json
+501240162680324293c28fc6e4e7ab5f0039fb82 assets\bonetools\models\item\flint_1.json
+41c1caf38625534d44cb49fb0473aa04c2eee851 assets\bonetools\models\item\bone_dagger.json
+93780dbb940cb4fd3d81801398eab0b5629643b3 assets\bonetools\models\item\thick_bone_stick.json
+2d9b7912575b18c318aa50f29beb5b1bfb50d46a assets\bonetools\models\item\sharpened_bone_stick.json
+7282248940085b7d003a799a595841331ab3ee6e assets\bonetools\models\item\bone_stick.json
+7903462c6c5275798bf84d7feb6eb8946c85c440 assets\bonetools\models\item\short_sharpened_bone_stick.json
+3dd43ce3412ba7f7c906182f419b448e2c8dd94e assets\bonetools\models\item\glass_powder.json
+b8b21e7519736ffe91dcba3d155f98e2a6056643 assets\bonetools\models\item\flint_0.json
 d041ab27ba51df05764b5a1055ec54df8462fda0 assets\bonetools\models\item\bone_hatchet.json
+ec519853239a5ffa7258e1bd91ea8d18b60e9b35 assets\bonetools\models\item\flint_2.json

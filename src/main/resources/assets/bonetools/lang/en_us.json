@@ -1,10 +1,22 @@
 {
-  "item.bonetools.bone_stick": "Bone Stick",
   "item.bonetools.bone_bit": "Bone Bit:",
   "item.bonetools.bone_crystal": "Bone Crystal",
   "item.bonetools.bone_powder": "Bone Powder",
   "item.bonetools.glass_powder": "Glass Powder",
 
+  "item.bonetools.bone_stick": "Bone Stick",
+  "item.bonetools.thick_bone_stick": "Thick Bone Stick",
+  "item.bonetools.sharpened_bone_stick": "Sharpened Bone Stick",
+  "item.bonetools.short_sharpened_bone_stick": "Short Sharpened Bone Stick",
+  "item.bonetools.thick_sharpened_bone_stick": "Thick Sharpened Bone Stick",
+
+  "item.bonetools.flint_4": "Sharpener Flint",
+  "item.bonetools.flint_3": "Slightly Damaged Sharpener Flint",
+  "item.bonetools.flint_2": "Damaged Sharpener Flint",
+  "item.bonetools.flint_1": "Very Damaged Sharpener Flint",
+  "item.bonetools.flint_0": "Unusable Sharpener Flint",
+
+  "item.bonetools.bone_sword": "Bone Sword",
   "item.bonetools.bone_dagger": "Bone Dagger",
   "item.bonetools.bone_pick": "Bone Pick",
   "item.bonetools.bone_hatchet": "Bone Hatchet"

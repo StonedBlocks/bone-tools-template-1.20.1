@@ -5,19 +5,15 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.SmithingTransformRecipeJsonBuilder;
-import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.recipe.SmithingRecipe;
-import net.minecraft.recipe.StonecuttingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagKey;
-import net.minecraft.util.Identifier;
-import net.minecraft.world.gen.carver.RavineCarverConfig;
 import net.thenameislinus.bonetools.item.ModItems;
+import net.thenameislinus.bonetools.util.ModTags;
 
+import javax.swing.text.html.HTML;
 import java.util.function.Consumer;
 
 public class ModRecipeGenerator extends FabricRecipeProvider {
@@ -29,14 +25,12 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
     public void generate(Consumer<RecipeJsonProvider> exporter) {
 
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BONE_CRYSTAL)
-                .input('G', ModItems.GLASS_POWDER)
-                .input('B', Items.BONE)
-                .pattern("BGB")
-                .pattern("GBG")
-                .pattern("BGB")
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BONE_CRYSTAL)
+                .input(ModItems.BONE_POWDER, 4)
+                .input(ModItems.GLASS_POWDER, 4)
                 .criterion(hasItem(ModItems.GLASS_POWDER), conditionsFromItem(ModItems.GLASS_POWDER))
                 .offerTo(exporter);
+
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BONE_STICK, 2)
                 .input('#', ModItems.BONE_BIT)
@@ -53,5 +47,63 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModItems.GLASS_POWDER, Items.GLASS_PANE, 4);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BONE_DAGGER, 1)
+                .input('B', ModItems.BONE_CRYSTAL)
+                .input('S', Items.STICK)
+                .input('b', ModItems.SHORT_SHARPENED_BONE_STICK)
+                .pattern("  b")
+                .pattern(" S ")
+                .pattern("B  ")
+                .criterion(hasItem(ModItems.SHORT_SHARPENED_BONE_STICK), conditionsFromItem(ModItems.SHORT_SHARPENED_BONE_STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BONE_SWORD, 1)
+                .input('B', ModItems.SHARPENED_BONE_STICK)
+                .input('S', Items.STICK)
+                .input('C', ModItems.BONE_CRYSTAL)
+                .pattern("B")
+                .pattern("S")
+                .pattern("C")
+                .criterion(hasItem(ModItems.SHARPENED_BONE_STICK), conditionsFromItem(ModItems.SHARPENED_BONE_STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BONE_HATCHET, 1)
+                .input('B', ModItems.THICK_SHARPENED_BONE_STICK)
+                .input('S', Items.STICK)
+                .pattern("B")
+                .pattern("S")
+                .criterion(hasItem(ModItems.THICK_SHARPENED_BONE_STICK), conditionsFromItem(ModItems.THICK_SHARPENED_BONE_STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BONE_PICK, 1)
+                .input('B', ModItems.THICK_BONE_STICK)
+                .input('S', Items.STICK)
+                .pattern("B ")
+                .pattern("SB")
+                .criterion(hasItem(ModItems.THICK_BONE_STICK), conditionsFromItem(ModItems.THICK_BONE_STICK))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SHARPENED_BONE_STICK, 1)
+                .input(ModItems.BONE_STICK, 2)
+                .input(ModTags.Items.SHARPENER_FLINT)
+                .criterion(hasItem(ModItems.BONE_STICK), conditionsFromItem(ModItems.BONE_STICK))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SHORT_SHARPENED_BONE_STICK, 2)
+                .input(ModItems.SHARPENED_BONE_STICK, 2)
+                .input(ModTags.Items.SHARPENER_FLINT)
+                .criterion(hasItem(ModItems.SHARPENED_BONE_STICK), conditionsFromItem(ModItems.SHARPENED_BONE_STICK))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THICK_SHARPENED_BONE_STICK, 1)
+                .input(ModItems.SHORT_SHARPENED_BONE_STICK, 2)
+                .criterion(hasItem(ModItems.SHORT_SHARPENED_BONE_STICK), conditionsFromItem(ModItems.SHORT_SHARPENED_BONE_STICK))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THICK_BONE_STICK, 1)
+                .input(ModItems.BONE_STICK, 2)
+                .criterion(hasItem(ModItems.BONE_STICK), conditionsFromItem(ModItems.BONE_STICK))
+                .offerTo(exporter);
     }
 }

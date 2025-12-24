@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bonetools:item/thick_sharpened_bone_stick"
+  }
+}

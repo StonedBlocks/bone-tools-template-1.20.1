@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "bonetools:thick_bone_stick"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "B ",
+    "SB"
+  ],
+  "result": {
+    "item": "bonetools:bone_pick"
+  },
+  "show_notification": true
+}

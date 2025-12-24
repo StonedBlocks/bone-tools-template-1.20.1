@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bonetools:bone_hatchet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thick_sharpened_bone_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bonetools:thick_sharpened_bone_stick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thick_sharpened_bone_stick",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bonetools:bone_hatchet"
+    ]
+  },
+  "sends_telemetry_event": false
+}

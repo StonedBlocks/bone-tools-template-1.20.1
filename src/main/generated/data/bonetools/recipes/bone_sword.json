@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "bonetools:sharpened_bone_stick"
+    },
+    "C": {
+      "item": "bonetools:bone_crystal"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "B",
+    "S",
+    "C"
+  ],
+  "result": {
+    "item": "bonetools:bone_sword"
+  },
+  "show_notification": true
+}

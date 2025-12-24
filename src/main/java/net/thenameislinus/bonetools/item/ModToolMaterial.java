@@ -10,7 +10,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    BONE(1, 100, 3.0F, 1.0F, 10, () -> Ingredient.fromTag(ItemTags.PLANKS));
+    BONE(MiningLevels.IRON, 100, 6.0F, 1.0F, 10, () -> Ingredient.fromTag(ItemTags.PLANKS));
 
 
     private final int miningLevel;

@@ -3,6 +3,7 @@ package net.thenameislinus.bonetools;
 import net.fabricmc.api.ModInitializer;
 
 import net.thenameislinus.bonetools.item.ModItems;
+import net.thenameislinus.bonetools.util.ModTags;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bonetools:sharpened_bone_stick"
+    },
+    {
+      "item": "bonetools:sharpened_bone_stick"
+    },
+    {
+      "tag": "bonetools:sharpener_flint"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "bonetools:short_sharpened_bone_stick"
+  }
+}
