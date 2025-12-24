@@ -48,6 +48,9 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModItems.GLASS_POWDER, Items.GLASS_PANE, 4);
 
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModItems.FLINT_4, Items.FLINT, 1);
+
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BONE_DAGGER, 1)
                 .input('B', ModItems.BONE_CRYSTAL)
                 .input('S', Items.STICK)
@@ -91,7 +94,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SHORT_SHARPENED_BONE_STICK, 2)
-                .input(ModItems.SHARPENED_BONE_STICK, 2)
+                .input(ModItems.SHARPENED_BONE_STICK)
                 .input(ModTags.Items.SHARPENER_FLINT)
                 .criterion(hasItem(ModItems.SHARPENED_BONE_STICK), conditionsFromItem(ModItems.SHARPENED_BONE_STICK))
                 .offerTo(exporter);

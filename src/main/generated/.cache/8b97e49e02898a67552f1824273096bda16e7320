@@ -1,4 +1,4 @@
-// 1.20.1	2025-12-24T10:14:22.3573256	Bone Tools/Recipes
+// 1.20.1	2025-12-24T20:21:25.1324876	Bone Tools/Recipes
 a35eb62e4c4d8767db845d174dfb661d746c720c data\bonetools\advancements\recipes\misc\bone_pick.json
 da49690baf4c2afb6725151629b4bb21afd3c3ea data\bonetools\recipes\bone_dagger.json
 ce51a74bb513bba7be5c31a918bfc7668c53574a data\bonetools\recipes\thick_bone_stick.json
@@ -6,12 +6,14 @@ ce51a74bb513bba7be5c31a918bfc7668c53574a data\bonetools\recipes\thick_bone_stick
 74c0b591fcc0da290bcf82d49fb2045eff7e9928 data\bonetools\advancements\recipes\misc\short_sharpened_bone_stick.json
 7843b65a61d01cb9531cb1dcbaf00132cc31db9a data\bonetools\advancements\recipes\misc\bone_hatchet.json
 093461956cccf768c4d5af8982473a7694563eff data\bonetools\recipes\thick_sharpened_bone_stick.json
+d9174bea4e4a3ac08175e803331dcce523a6c67c data\bonetools\recipes\flint_4_from_flint_stonecutting.json
 3030dfcfca439426e8a7a0af13aea03de401e7db data\bonetools\recipes\bone_pick.json
+8f63ae055dcdb866ada517084a9e76d4250b9127 data\bonetools\advancements\recipes\misc\flint_4_from_flint_stonecutting.json
 f721b1f150f99ab23a18ed8b7a81d841fb3adca4 data\bonetools\recipes\sharpened_bone_stick.json
 505376da42a8ff21384f69b33c04b3f8bb7e5bcc data\bonetools\advancements\recipes\misc\bone_sword.json
 9a0515d080567d36b5e64e684f53aa794d556024 data\bonetools\advancements\recipes\misc\thick_bone_stick.json
 4dd01ff1913afca8492b9b6be1eded17ba808408 data\bonetools\advancements\recipes\misc\sharpened_bone_stick.json
-f2d9d7fb8369fabc333db23241612495c148af30 data\bonetools\recipes\short_sharpened_bone_stick.json
+fc776e3c7c06bbec117d5d5e828aea35bb9af428 data\bonetools\recipes\short_sharpened_bone_stick.json
 a6d117bb2974ecf7e7cc115fcc7bb9e1bc636d27 data\bonetools\advancements\recipes\misc\thick_sharpened_bone_stick.json
 a70e4399fe863bde683e010fc04e61d427c8cc29 data\bonetools\recipes\bone_sword.json
 73467031b76d4653f1c250913682a556b3f66177 data\bonetools\recipes\bone_bit.json
