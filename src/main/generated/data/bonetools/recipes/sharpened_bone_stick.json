@@ -3,10 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "bonetools:bone_stick"
-    },
-    {
-      "item": "bonetools:bone_stick"
+      "item": "bonetools:thick_bone_stick"
     },
     {
       "tag": "bonetools:sharpener_flint"

@@ -5,13 +5,17 @@
     "B": {
       "item": "bonetools:thick_bone_stick"
     },
+    "G": {
+      "item": "bonetools:bone_crystal"
+    },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "B ",
-    "SB"
+    " B ",
+    " SB",
+    "G  "
   ],
   "result": {
     "item": "bonetools:bone_pick"

@@ -93,7 +93,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SHARPENED_BONE_STICK, 1)
-                .input(ModItems.BONE_STICK, 2)
+                .input(ModItems.THICK_BONE_STICK)
                 .input(ModTags.Items.SHARPENER_FLINT)
                 .criterion(hasItem(ModItems.BONE_STICK), conditionsFromItem(ModItems.BONE_STICK))
                 .offerTo(exporter);
