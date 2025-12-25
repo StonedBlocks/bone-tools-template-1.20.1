@@ -47,6 +47,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModItems.GLASS_POWDER, Items.GLASS_PANE, 4);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModItems.BONE_POWDER, Items.BONE, 4);
 
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModItems.FLINT_4, Items.FLINT, 1);
 
@@ -74,16 +75,20 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BONE_HATCHET, 1)
                 .input('B', ModItems.THICK_SHARPENED_BONE_STICK)
                 .input('S', Items.STICK)
+                .input('G', ModItems.BONE_CRYSTAL)
                 .pattern("B")
                 .pattern("S")
+                .pattern("G")
                 .criterion(hasItem(ModItems.THICK_SHARPENED_BONE_STICK), conditionsFromItem(ModItems.THICK_SHARPENED_BONE_STICK))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BONE_PICK, 1)
                 .input('B', ModItems.THICK_BONE_STICK)
                 .input('S', Items.STICK)
-                .pattern("B ")
-                .pattern("SB")
+                .input('G', ModItems.BONE_CRYSTAL)
+                .pattern(" B ")
+                .pattern(" SB")
+                .pattern("G  ")
                 .criterion(hasItem(ModItems.THICK_BONE_STICK), conditionsFromItem(ModItems.THICK_BONE_STICK))
                 .offerTo(exporter);
 
