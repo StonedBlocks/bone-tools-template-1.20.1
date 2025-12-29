@@ -49,7 +49,7 @@ public class ModItems {
  public static final Item BONE_DAGGER = registerItem("bone_dagger",
          new BoneDaggerItem(ModToolMaterial.BONE, 2, 6, new FabricItemSettings().maxDamage(150)));
  public static final Item BONE_PICK = registerItem("bone_pick",
-         new PickaxeItem(ModToolMaterial.BONE, 1, 4, new FabricItemSettings().maxDamage(200)));
+         new PickaxeItem(ModToolMaterial.BONE, 1, -2.8f, new FabricItemSettings().maxDamage(200)));
  public static final Item BONE_HATCHET = registerItem("bone_hatchet",
          new BoneAxeItem(ModToolMaterial.BONE, 4, -3.2f, new FabricItemSettings().maxDamage(200)));
 
